@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.t1{
+	margin: 3px 300px;
+	padding: 30px 0px;
+}
+
+.pru{
+	background: #000000;
+	color: white;
+	clear: both;
+	padding: 10px 5px;
+}
+.pru{
+	padding: 20px 0px 20px 300px ;
+}
+.container1 h1 {
+	padding: 0px 300px ;
+	font-size: 50px;
+	color: #2E2E2E;
+	font-family: 'Poppins';
+	
+}.menu{
+	background:#E8E4E4;
+	padding: 10px;
+}
+.heredia{
+	padding: 30px 10px;
+	margin: 0px 0px 0px 350px;
+}
+article{
+	float: left;
+}
