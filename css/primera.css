@@ -9,13 +9,7 @@
 }
 
 
-{
-	
-	width: 90%;
-	margin: 20px auto;
-	max-width: 1200px;
-	
-}
+
 .pru{
 	background: #000000;
 	color: white;
@@ -85,7 +79,12 @@ ol >ul >li> ul> ul{
 }
 .pru{
 	padding: 20px 0px 20px 300px ;
+
 }
 .linea{
 	background: crimson;
 }
+.pru{
+	border-top: 10px solid crimson;
+}
+
