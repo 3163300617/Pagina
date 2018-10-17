@@ -46,7 +46,7 @@
 						<div class="container4">
 						<label> <b>Plan de facturación</b></label>
 						Anual <input type="radio" name="satisfaction" id="Anual" value="Anual" checked="checked" >
-						Trimestral <input type="radio" name="Satisfaction" id="Trimestral" value="Trimestral">
+						Trimestral <input type="radio" name="Satisfaction" id="Trimestral" value="Trimestral" >
 						Mensual <input type="radio" name="satisfaction" id="Mensual" value="Mensual">	
 						</div>
 					</div>
@@ -58,15 +58,15 @@
 								<div class="container3">
 									<div class="container5">
 										<h2 for="name">Nombre de usuario *</h2>
-											<input type="text" size="30" name="name" id="name"value="" required />
+											<input type="text" size="30" name="name" id="name"value="" required="" />
 									</div>
 									<div class="container5">
 										<h2 for="con">Contraseña *</h2>
-											<input type="password" size="30" maxlength="8" name="con" id="con" value=""/>  <label>la contraseña debe tener un minimo de 8 caracteres</label>
+											<input type="password" size="30" maxlength="8" name="con" id="con" value="" required="" />  <label>la contraseña debe tener un minimo de 8 caracteres</label>
 									</div>
 									<div class="container5">
 										<h2 for="repe">Repetir Contraseña *</h2>
-											<input type="password" size="30" maxlength="8"name="repe" id="repe" value=""/>
+											<input type="password" size="30" maxlength="8"name="repe" id="repe" value="" required="" />
 									</div>
 								</div>			
 						</fieldset>
@@ -76,19 +76,19 @@
 							<div class="container3">
 									<div class="container5">
 										<h2 for="name">Nombre*</h2>
-											<input type="text" size="50"name="name" id="name"value="" required />
+											<input type="text" size="50"name="name" id="name"value="" required="" />
 									</div>
 									<div class="container5">
 										<h2 for="Ape">Apellido *</h2>
-											<input type="text" size="50" name="Ape" id="Ape" value=""/>
+											<input type="text" size="50" name="Ape" id="Ape" value="" required="" />
 									</div>
 									<div class="container5">
 										<h2 for="tel">Telefono *</h2>
-											<input type="text" size="30" name="tel" id="tel" value=""/>
+											<input type="text" size="30" name="tel" id="tel" value="" required="" />
 									</div>
 									<div class="container5">
 										<h2 for="correo">Correo electrónico *</h2>
-											<input type="text" size="50" name="correo" id="correo" value=""/>
+											<input type="text" size="50" name="correo" id="correo" value="" required="" />
 									</div>
 									<div class="container5">
 										<h2 for="correo">Fecha de nacimiento </h2>
@@ -110,26 +110,16 @@
 											<option value="">4</option>
 										</select>
 								 </div>
-							</div>		
+							</div>
+									
 						</fieldset>
 						<div class="container7">
 							<input type="checkbox" name="my" id="my" value="my" >
 							<label for="my">Acepto la política de protección de datos de Big Cloud</label>
 			
 						</div>
-						<div class="nn">
-						<div class="container6">
-							<a class="rr" href="Contratar.html" title="">Contratar</a>
-						</div>
-						</div>
-						<div class="ma">
-					. <br>
-					. <br>
-					. <br>
-					. <br>
-					. <br>
-					. <br>
-				</div>
+						<input class="rr" href="Contratar.html" type="button" value="Contratar">
+
 				</div>
 			</div>
 		</div>
